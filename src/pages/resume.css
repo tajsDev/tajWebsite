@@ -1,0 +1,10 @@
+.resumeProj {
+ overflow : hidden;
+}
+.resImg {
+vertical-align: middle;
+overflow-clip-margin: content-box;
+    overflow: clip;
+  height:700px;
+  min-height:700px;
+}

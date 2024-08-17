@@ -1,0 +1,44 @@
+.topnav {
+  box-sizing:border-box;
+  position:relative;
+  background-image: linear-gradient(#E966A0,#2B2730 99%);
+  background-color: #7a49a5;
+  color: white;
+  overflow: hidden;
+  top: 0;
+  width: 100vw;
+  min-height:20vh;
+  min-width:100vw;
+  height: 20vh; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnav button {
+  background: none; /* Remove default button background */
+  border: none; 
+  color: white;
+  display:flex;
+  justify-content:center;
+  min-height:3vh;
+  height:3vh;
+  min-width:6vw;
+  width:6vw;
+  padding: 3vh; /* Adjust padding as needed */
+  font-size: 2vh; /* Adjust font size as needed */
+  cursor: pointer; /* Change cursor to pointer */
+  margin: 1vw 3vh; /* Adjust margin between buttons */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.topnav button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav * {
+  box-sizing: border-box;
+}
+
+

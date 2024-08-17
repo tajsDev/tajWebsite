@@ -1,0 +1,50 @@
+.homeBox{
+  min-width:20vw;
+  min-height:90vh;
+  height:90vh;
+  max-height:100vh;
+  width:20w;
+}
+.introBox {
+  padding-top:20vh;
+}
+.intro {
+  font-size:3vh;
+  padding:10vh;
+  text-align:center !important;
+  bottom:0;
+}
+
+/* Define the keyframes for fading in and out */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.fade-out {
+  animation: fadeOut 1s ease-in-out;
+}
+
+.dynamicContent {
+  text-align: center;
+}
+
+.ahead {
+  font-size:10vh;
+}

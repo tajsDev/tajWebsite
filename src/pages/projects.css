@@ -1,0 +1,45 @@
+.name {
+  text-align:center;
+}
+
+.gif {
+  min-height:30vh;
+  height:30vh;
+  min-width:30vw;
+  width:30vw;
+}
+.projBox {
+  padding:1vh;
+  min-width:30vw;
+  width:30vw;
+  min-height:50vh;
+  height:50vh;
+}
+
+.proj {
+  max-width:30vw;
+  height:30vh;
+  min-height:30vh;
+  min-width:30vw;
+  width:30vw;
+  padding:2vw 2vh;
+  display:flex;
+  align-items:flex-start;
+  justify-content:center;
+}
+.link {
+}
+.name {
+  font-size:5vh;
+}
+.text {
+  font-size:2vh;
+  padding: 0vh 3vw;
+  min-width:30vw;
+  width:30vw;
+  min-height:30vh;
+  height:30vh;
+  text-align:left;
+  padding-top:1vh;
+  padding-bottom:20vh;
+}

@@ -1,0 +1,28 @@
+.aboutBox {
+ text-align:center;
+  max-width:40vw;
+}
+
+.textBox {
+  padding:1vw;
+  width:40vw;
+  max-width:40vw;
+}
+
+.info {
+  padding-top:1vh;
+ text-align:left;
+  font-size:2vh;
+}
+
+.profile { 
+  padding:1vw;
+  text-align:center;
+  font-size:4vh;
+}
+
+.title {
+  border-bottom-style:solid;
+  font-size:3vh;
+  text-align:left;
+}
