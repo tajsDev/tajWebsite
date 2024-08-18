@@ -1,0 +1,6 @@
+.posted {
+  text-align:left;
+  line-height: 1.6;
+  white-space: pre-wrap; /* Preserve whitespace and line breaks */
+}
+

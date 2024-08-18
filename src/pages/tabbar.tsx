@@ -4,7 +4,8 @@ import React, { useState } from "react";
 import Home from "../pages/home.tsx";
 import Resume from "../pages/resume.tsx";
 import Projects from "../pages/projects.tsx";
-
+import Logs from "../pages/logs.tsx";
+import Articles from "../pages/articles.tsx";
 import "./tabbar.css";
 
 const Tabbar = () => {
@@ -20,8 +21,8 @@ const Tabbar = () => {
         return <About />;
       case 'resume':
         return <Resume />;
-      case 'devlog':
-        return <DevLog />;
+      case 'articles':
+        return <Articles/>;
       default:
         return <Home />;
     }
@@ -34,7 +35,7 @@ const Tabbar = () => {
         <button onClick={() => setCurrentPage('projects')}>Projects</button>
         <button onClick={() => setCurrentPage('about')}>About</button>
         <button onClick={() => setCurrentPage('resume')}>Resume</button>
-        <button onClick={() => setCurrentPage('devlog')}>Logs</button>
+        <button onClick={() => setCurrentPage('articles')}>Articles</button>
       </div>
       <>
         {renderPage()}
@@ -43,8 +44,6 @@ const Tabbar = () => {
   );
 };
 
-// Placeholder components for different pages
-const DevLog = () => <div>Dev Logs Page</div>;
 
 export default Tabbar;
 

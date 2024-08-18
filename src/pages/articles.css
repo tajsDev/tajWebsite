@@ -1,0 +1,33 @@
+.article-list {
+  min-height:70vh;
+  list-style-type: none;
+  padding: 0;
+}
+
+.article-list li {
+  margin: 10px 0;
+}
+
+.article-list button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.article-list button:hover {
+  text-decoration: none;
+}
+
+.backArt {
+  font-size:2vh;
+  background: none;
+  padding-bottom:3vh;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.artBox {
+
+}
+

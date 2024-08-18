@@ -4,8 +4,8 @@ import './home.scss'; // Ensure this path is correct
 const Home = () => {
   const names = [
     "Tomas Jauregui",
-    "tajdev",
     "Software Developer",
+    "tajdev",
     "Game Programmer",
   ];
 
