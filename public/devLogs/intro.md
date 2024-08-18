@@ -22,6 +22,13 @@ using javascript arrays.
 
 For the articles I decided to use markdown since react had a package for it and 
 to me at least, easier to edit than html.
+
+So with the tech decided and my plan created, I started to work on the website.
 ## Implemenation 
 
+### Markdown rendering
+
+### Importing Data
+
+### Seperating the website
 ## Sources and Credits

@@ -6,9 +6,22 @@
 
 .article-list li {
   margin: 10px 0;
-}
+  padding:1vh;
+  border-left:solid;
+  border-color:#99FF99;
 
+}
+.artDate {
+  color:Silver;
+  padding-top:1vh;
+  font-size:15px;
+}
+.artHead {
+  text-align:center;
+  padding-bottom:1vh;
+}
 .article-list button {
+  font-size:3vh;
   background: none;
   border: none;
   color: #ffffff;
@@ -24,7 +37,7 @@
   background: none;
   padding-bottom:3vh;
   border: none;
-  color: #ffffff;
+  color: #99FF99;
   cursor: pointer;
 }
 .artBox {

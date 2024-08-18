@@ -28,11 +28,13 @@ const Articles = () => {
 
     return (
       <ul className="article-list">
+        <h2 className="artHead">Posts</h2>
         {markData.map((data, index) => (
           <li key={index}>
             <button onClick={() => setSelectedArticle(data.ref)}>
-              {data.header}
+              <strong>{data.header}</strong><br/>
             </button>
+              <p className="artDate"><i>{data.date}</i></p>
           </li>
         ))}
       </ul>
