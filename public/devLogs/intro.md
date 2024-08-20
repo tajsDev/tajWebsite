@@ -1,16 +1,16 @@
 # Welcome to my website !
 This website was created with the intention of streamlining content
 and make it easier to add more information.  
-## The Problem
+## Problem
 This is how my previous website looked:
 
-![alt text](image url "image Title")
+![static website](/images/staticwebsite.png "image Title")
 
 It was a static html template where I had to edit content by directly 
 changing the HTML template. I did not like this and abandon it after 
 2 months. It was too much work to add more info. So I need a better way
 to create content on my website.
-## The Solution
+## Solution
 I have thought of three things for my website that I needed: 
 1.Using some file format of writing articles and updates
 2.Having all of stored in a format is easy and understandable
@@ -24,11 +24,10 @@ For the articles I decided to use markdown since react had a package for it and
 to me at least, easier to edit than html.
 
 So with the tech decided and my plan created, I started to work on the website.
-## Implemenation 
 
-### Markdown rendering
-
-### Importing Data
-
-### Seperating the website
-## Sources and Credits
+## Result
+With react and NextJS I was able to edit content through javascript arrays and write
+articles through markdown files,which allowed me to not touch any of the HTML directly. 
+I was also able to create a format for all of my data so I can present my content in 
+a simple way. Create seperate components for my website allow me to have different styles 
+for them and easily readable for me.

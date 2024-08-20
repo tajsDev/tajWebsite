@@ -19,7 +19,7 @@ export const projectsData = [
   },
   {
     name: "Picoma",
-    text: "mailto:tajdev003@gmail.com",
+    text: "Pico Mech Arena is inspired by the Pico 8 game engine. It is a top down mech based shooter with resource and money management systems. It is currently being built with Zig and Raylib. I am the solo developer on this project which includes all of the game logic, art and music. An alpha demo is being worked on and will be displayed soon.",
     image: "",
     link:"https://github.com/tajsDev/picomecharena"
   }

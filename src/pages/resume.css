@@ -5,6 +5,6 @@
 vertical-align: middle;
 overflow-clip-margin: content-box;
     overflow: clip;
-  height:700px;
-  min-height:700px;
+  height:100vh;
+  min-height:100vh;
 }
