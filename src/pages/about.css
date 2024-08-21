@@ -9,7 +9,7 @@
   max-width:40vw;
 }
 
-.info {
+.infos {
   padding-top:1vh;
  text-align:left;
   font-size:2vh;
@@ -21,7 +21,7 @@
   font-size:4vh;
 }
 
-.title {
+.titled {
   border-bottom-style:solid;
   font-size:3vh;
   text-align:left;

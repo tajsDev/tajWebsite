@@ -8,8 +8,8 @@ const About = () => {
       {aboutData.map((data,key) => {
         return(
         <div className="textBox" key={key}>
-        <h3 className="title">{data.title}</h3>
-        <p className="info"><i>{data.content}</i></p>
+        <h3 className="titled">{data.title}</h3>
+        <p className="infos"><i>{data.content}</i></p>
         </div>
       );
       })}</div>

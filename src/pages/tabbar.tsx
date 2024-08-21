@@ -6,6 +6,8 @@ import Resume from "../pages/resume.tsx";
 import Projects from "../pages/projects.tsx";
 import Logs from "../pages/logs.tsx";
 import Articles from "../pages/articles.tsx";
+import Work from "../pages/work.tsx";
+
 import "./tabbar.css";
 
 const Tabbar = () => {
@@ -15,6 +17,8 @@ const Tabbar = () => {
     switch (currentPage) {
       case 'home':
         return <Home />;
+      case 'work':
+        return <Work />;
       case 'projects':
         return <Projects />;
       case 'about':
@@ -32,6 +36,7 @@ const Tabbar = () => {
     <>
       <div className="topnav">
         <button onClick={() => setCurrentPage('home')}>Home</button>
+        <button onClick={() => setCurrentPage('work')}>Experience</button>
         <button onClick={() => setCurrentPage('projects')}>Projects</button>
         <button onClick={() => setCurrentPage('about')}>About</button>
         <button onClick={() => setCurrentPage('resume')}>Resume</button>
