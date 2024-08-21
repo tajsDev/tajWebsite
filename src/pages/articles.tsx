@@ -1,27 +1,30 @@
-'use client'
-import React, { useState,useEffect } from 'react';
-import Logs from '../pages/logs.tsx';
-import {markData}  from '../data/markdown.js'; // Adjust the import path based on your directory structure
+import React, { useState, useEffect } from 'react';
+import Logs from '../pages/logs';
+import { markData } from '../data/markdown.js'; // Adjust the import path based on your directory structure
 
 import './articles.css';
 
 const Articles = () => {
+  // Updated state type: string or null
   const [currentPage, setCurrentPage] = useState('Articles');
-  const [selectedArticle, setSelectedArticle] = useState(null);
+  const [selectedArticle, setSelectedArticle] = useState<string | null>(null);
 
   useEffect(() => {
     setCurrentPage('Articles');
     setSelectedArticle(null);
   }, []);
+
   const renderPage = () => {
     if (selectedArticle) {
-      return(
+      return (
         <>
-        <button className="backArt" onClick={() => { setCurrentPage('Articles'); setSelectedArticle(null); }}>
-          <strong><i>Go Back</i></strong>
-        </button>
-
-        <Logs mdFile={selectedArticle} />
+          <button className="backArt" onClick={() => { 
+            setCurrentPage('Articles'); 
+            setSelectedArticle(null); 
+          }}>
+            <strong><i>Go Back</i></strong>
+          </button>
+          <Logs mdFile={selectedArticle} />
         </>
       );
     }
@@ -34,7 +37,7 @@ const Articles = () => {
             <button onClick={() => setSelectedArticle(data.ref)}>
               <strong>{data.header}</strong><br/>
             </button>
-              <p className="artDate"><i>{data.date}</i></p>
+            <p className="artDate"><i>{data.date}</i></p>
           </li>
         ))}
       </ul>
@@ -42,9 +45,9 @@ const Articles = () => {
   };
 
   return (
-      <div className="artBox">
-        {renderPage()}
-      </div>
+    <div className="artBox">
+      {renderPage()}
+    </div>
   );
 };
 

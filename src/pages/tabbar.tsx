@@ -1,12 +1,12 @@
 'use client'
-import About from "../pages/about.tsx";
+import About from "../pages/about";
 import React, { useState } from "react";
-import Home from "../pages/home.tsx";
-import Resume from "../pages/resume.tsx";
-import Projects from "../pages/projects.tsx";
-import Logs from "../pages/logs.tsx";
-import Articles from "../pages/articles.tsx";
-import Work from "../pages/work.tsx";
+import Home from "../pages/home";
+import Resume from "../pages/resume";
+import Projects from "../pages/projects";
+import Logs from "../pages/logs";
+import Articles from "../pages/articles";
+import Work from "../pages/work";
 
 import "./tabbar.css";
 
