@@ -2,5 +2,33 @@
   text-align:left;
   line-height: 1.6;
   white-space: pre-wrap; /* Preserve whitespace and line breaks */
+  min-width:20vw;
+  min-height:80vh;
 }
 
+.reactMarkDown {
+  min-width:20vw;
+  max-width:60vw;
+  min-height:80vh;
+  padding-bottom:9vh;
+}
+
+ .reactMarkDown p { 
+  font-size: 2vh;
+}
+
+ .reactMarkDown img { 
+  min-width:30vw;
+  min-height:30vh;
+  max-height:60vh;
+  max-widht:60vw;
+}
+
+
+ .reactMarkDown h1 { 
+  font-size: 4vh;
+}
+
+ .reactMarkDown h2 { 
+  font-size: 3vh;
+}

@@ -2,7 +2,6 @@
   background-image: linear-gradient(to bottom, #2B2730 10%, #6554AF 95%);
   background-color: #6554AF;
   color: white;
-  width: 100vw;
   min-width:100vw;
   bottom: 0; /* Align at the bottom */
   text-align: center;
@@ -11,17 +10,17 @@
   justify-content: center;
   padding: 1vw 0vh;
   padding-top:0vh;
+  position:relative;
   box-sizing: border-box;
-  height:0vh;
   min-height:20vh;
 }
 
 .navbar > div {
   display: flex; /* Use flexbox for alignment */
   align-items: center; /* Center items vertically */
-  margin: 0 30px; /* Space between items */
-  min-height:10px;
-  height:10px;
+  margin: 0 3vw; /* Space between items */
+  min-height:1vh;
+  min-width:2vw;
   padding-bottom:4vh;
 }
 
@@ -31,9 +30,13 @@
   font-size: 2vh;
   display: flex;
   align-items: center; /* Center items vertically */
-  padding: 5px; /* Padding around the text */
+  padding: 1vh; /* Padding around the text */
 }
 
 .navbar img {
   margin-right: 1vw; /* Space between image and text */
+  min-width:1vw;
+  max-width:5vh;
+  min-height:1vh;
+  max-height:5vh;
 }

@@ -1,12 +1,13 @@
 .aboutBox {
  text-align:center;
+  min-width:20vw;
   max-width:40vw;
+  padding-bottom:5vh;
 }
 
 .textBox {
   padding:1vw;
-  width:40vw;
-  max-width:40vw;
+  min-width:40vw;
 }
 
 .infos {

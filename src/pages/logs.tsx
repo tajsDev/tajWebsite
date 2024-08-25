@@ -22,6 +22,7 @@ const Logs: React.FC<LogsProps> = ({ mdFile }) => {
       <ReactMarkdown
         children={content}
         remarkPlugins={[remarkGfm]}
+        className="reactMarkDown"
       />
     </div>
   );

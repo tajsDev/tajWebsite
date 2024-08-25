@@ -4,16 +4,33 @@
   margin: 0;
 }
 
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
 html,
 body {
-  overflow-x:hidden;
+  overflow-x:scroll;
+  overflow-y:hidden;
   box-sizing:border-box;
   width: 100vw;
   min-width: 100vw;
   min-height:100vh;
   height:100vh;
   scroll-behavior: smooth;
-  height:100%;
   background-color:#2B2730;
   color:white;
   padding-bottom:0px;
