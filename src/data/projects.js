@@ -1,6 +1,21 @@
 export const projectsData = [
   {
+    name: "Cleanser",
+    range: "August 2024 - Present",
+    text: `Cleanser is a first-person action game that challenges players to 
+    make moral decisions about whether to save or eliminate enemies. The 
+    primary objective is to explore the factors that encourage non-violent 
+    tactics. The game features a unique cleansing mechanic that allows 
+    players to transform enemies into allies. This project has been awarded 
+    a grant to facilitate an in-depth research study aimed at understanding 
+    these factors.`,
+    image: "/images/cleanser.gif",
+    link:"https://github.com/tajsDev/cleanser"
+  },
+
+  {
     name: "Bio Run",
+    range: "August 2023 - May 2024",
     text: `Bio Run is a gamified walking app from BioMotum that helps children 
     learn how to walk with an exoskeleton. The game that we made was a 2D side
     scroller with the steps from the user as the input. I created the game 
@@ -12,6 +27,7 @@ export const projectsData = [
   },
   {
     name: "Last Steps",
+    range: "August 2023 - December 2023",
     text:`Last Steps is a 3D zombie shooter with unique weapons and a permanent 
     death system. I had coded the enemies, the bosses, the levels, and the 
     difficulty increased. I created a component system for the game which  
@@ -23,6 +39,7 @@ export const projectsData = [
   },
   {
     name: "Golf-N-Stuff",
+    range: "January 2023 - May 2023",
     text: `Golf-N-Stuff is a 3D golf game with mouse-only controls, it was 
     designed for office people. I had implemented 9 out of 12 levels and 
     structured the entire game state system. The every 3 levels had a theme, 
@@ -32,16 +49,6 @@ export const projectsData = [
     of the semester.`,
     image: "/images/golf.gif",
     link: "https://major-lag.itch.io/golf-n-stuff"
-  },
-  {
-    name: "Picoma",
-    text: `Pico Mech Arena is inspired by the Pico 8 game engine. It is a top 
-    down mech based shooter with resource and money management systems. It is
-    currently being built with Zig and Raylib. I am the solo developer on this
-    project which includes all of the game logic, art and music. An alpha demo
-    is being worked on and will be displayed soon.`,
-    image: "",
-    link:"https://github.com/tajsDev/picomecharena"
   }
 ];
 

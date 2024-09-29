@@ -12,6 +12,8 @@ const Projects = () => {
         <div className="proj">
           <img className="gif" src={data.image} alt="Coming Soon" />
           <p className="text"><i>{data.text}</i><br /><br/>
+        <p className="projRang"><i>Timeline:  {data.range}</i></p><br />
+
                   <a className="link" href={data.link} target="_blank"><strong><i> Check it out here</i></strong> </a></p>
         </div>
         </div>

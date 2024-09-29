@@ -1,11 +1,25 @@
 export const aboutData = [
     {
       "title": "About Me",
-      "content": "Hi I am Tomas Jauregui, I am software developer who studied at Northern Arizona University.My main passion is game design since I love to create unique experiences for people and have people enjoy my work. I have over 2 years of professonal experinece and alot of video games and projects that I have worked on."
+      "content": `Hi I am Tomas Jauregui, I am software developer who studied 
+      at Northern Arizona University. My main passion is game design since I 
+      love to create unique experiences for people and have people enjoy my 
+      work. I have over 2 years of professonal experinece and a lot of video 
+      games and projects that I have worked on. I am apart of Society of 
+      Hispanic Professonals Engineers where I am trying to connect comapnies 
+      engineers at NAU. Helping lationo acheive work oppurnites is one of my 
+      main passions.`
     },
     {
+      "title": "Books",
+      "content": `Digital Minimalsim By Cal Newport, Intro to Game Design, Deep
+      Work, No Longer Human, Dune, Pragamtic Programmer , Clean Code, Competive
+    Programmer Handbook, Game Engine Architecture, Hello Habits`
+    },
+
+    {
       "title": "Interests",
-      "content": "Game Progamming, Education Software, Cybersecurity, BackEnd Engineering"
+      "content": "Game Programming, Education Software, Cybersecurity, BackEnd Engineering"
     },
 
     {
@@ -22,7 +36,7 @@ export const aboutData = [
     },
     {
       "title": "Awards",
-      "content": "Honors, Lumberjack Scholars Award, Dean's List"
+      "content": "Honors, Lumberjack Scholars Award, Dean's List, LSAMP Grant"
     }
   ]
 

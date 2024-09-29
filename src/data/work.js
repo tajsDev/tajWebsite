@@ -1,7 +1,33 @@
 export const workData = [
   {
+    job: "Research Assistant",
+    company:"Reshape Lab at NAU",
+    time:"Part-Time",
+    respons: `I am developing a GitHub chatbot designed to facilitate new open-source 
+    contributions. Utilizing Python and Probot, we are currently implementing 
+    retrieval-augmented generation within a large language model to ensure the 
+    chatbot delivers accurate information. This chatbot will be accessible not 
+    only on a dedicated website but also directly within GitHub repositories.
+    `,
+    range: "September 2024 - Present" 
+  },
+
+  {
+    job: "Research Assistant",
+    company:"Playful Health Techology Lab at NAU",
+    time:"Part-Time",
+    respons: `I am developing a mini-game for the speech therapy application, Spokeit. 
+    This game focuses on engaging children through enjoyable, voice-driven mini-games. 
+    My current work involves creating animations and sequencing the gameplay to ensure 
+    it aligns with the existing iOS version. I am utilizing Unity and C# for development 
+    and am also deploying the game to Android devices.
+    `,
+    range: "August 2024 - Present" 
+  },
+
+  {
     job: "Research Software Engineer",
-    company:"Northern Arizona University",
+    company:"Metrology Research and Teaching Lab at NAU",
     time:"Part-Time",
     respons: `I focusing on creating
     games for Transmission Electron Microscopy for the NAU metrology lab. I used 

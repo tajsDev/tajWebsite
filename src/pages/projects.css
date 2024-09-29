@@ -27,6 +27,10 @@
 .name {
   font-size:5vh;
 }
+.projRang {
+  color: #CCB39A;
+  font-size:2vh;
+}
 .text {
   font-size:2vh;
   padding: 0vh 3vw;

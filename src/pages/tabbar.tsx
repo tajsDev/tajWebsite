@@ -23,8 +23,6 @@ const Tabbar = () => {
         return <Projects />;
       case 'about':
         return <About />;
-      case 'resume':
-        return <Resume />;
       case 'articles':
         return <Articles/>;
       default:
@@ -39,7 +37,6 @@ const Tabbar = () => {
         <button onClick={() => setCurrentPage('work')}>Experience</button>
         <button onClick={() => setCurrentPage('projects')}>Projects</button>
         <button onClick={() => setCurrentPage('about')}>About</button>
-        <button onClick={() => setCurrentPage('resume')}>Resume</button>
         <button onClick={() => setCurrentPage('articles')}>Articles</button>
       </div>
       <>
