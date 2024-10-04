@@ -1,14 +1,12 @@
 export const aboutData = [
     {
       "title": "About Me",
-      "content": `Hi I am Tomas Jauregui, I am software developer who studied 
-      at Northern Arizona University. My main passion is game design since I 
-      love to create unique experiences for people and have people enjoy my 
-      work. I have over 2 years of professonal experinece and a lot of video 
-      games and projects that I have worked on. I am apart of Society of 
-      Hispanic Professonals Engineers where I am trying to connect comapnies 
-      engineers at NAU. Helping lationo acheive work oppurnites is one of my 
-      main passions.`
+      "content": `
+	Hi, I'm Tomas Jauregui, a software developer and graduate of Northern Arizona University. 
+	My passion lies in game design, as I love creating unique experiences that people can enjoy. 
+	I have over two years of professional experience and have worked on numerous video games and projects. 
+	I'm also a member of the Society of Hispanic Professional Engineers, where I strive to connect companies 
+	with engineers at NAU. One of my key passions is helping Latino communities achieve better career opportunities.`
     },
     {
       "title": "Books",
